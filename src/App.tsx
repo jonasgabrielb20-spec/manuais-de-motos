@@ -510,15 +510,6 @@ export default function App() {
         </div>
       </footer>
 
-      {/* Fixed CTA Mobile */}
-      <div className="fixed bottom-0 left-0 w-full p-4 bg-black/80 backdrop-blur-md z-40 border-t border-white/5 md:hidden">
-        <button 
-          onClick={scrollToOffers}
-          className="w-full bg-brand text-white font-black py-4 rounded-xl shadow-lg flex items-center justify-center gap-2 text-[15px]"
-        >
-          QUERO MEU ACESSO AGORA <ArrowRight size={20} />
-        </button>
-      </div>
     </div>
   );
 }
